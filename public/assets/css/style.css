@@ -1,0 +1,245 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  
+}
+.log a{
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+input,
+select,
+button,
+textarea {
+  outline: none;
+}
+button {
+  border: none;
+}
+@font-face {
+  font-family: Glamour;
+  src: url('../fonts/Glamor-Medium.ttf');
+}
+@font-face {
+  font-family: Myrad;
+  src: url('../fonts/Myrad.otf');
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/Proxima Nova Regular.otf');
+}
+body {
+  font-size: 18px;
+}
+.logo{
+  width: 160px;
+}
+.wraper {
+  max-width: 1200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+  color: #fff;
+}
+.wraper2{
+  max-width: 1900px;
+   -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+
+}
+.flex-beetw {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+}
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+}
+header {
+  height: 130px;
+  background: rgba(255, 255, 255, 0.62);
+  position: absolute;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: 'Playfair Display SC', arial;
+}
+header .wraper {
+  height: 100%;
+}
+a.logo {
+  margin: 0 1.667em;
+}
+.lang {
+  position: absolute;
+  right: 0;
+  top:0;
+}
+.lang img {
+  width: 28px;
+  height: 18px;
+}
+main {
+  font-family: Myrad;
+}
+.baner {
+  font-family: 'Playfair Display SC', arial;
+  background: url('../img/ban.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+  padding-top: 355px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.baner h3 {
+  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.88);
+}
+h1 {
+  font-size: 2.778em;
+  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.88);
+  text-align: center;
+  margin-bottom: 0.9em;
+  letter-spacing: 5px;
+}
+h2 {
+  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.88);
+  text-align: center;
+  font-size: 2.2222em;
+  margin-bottom: 6.5em;
+  font-weight: normal ;
+}
+h3 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: normal ;
+}
+.triggers_item {
+  position: relative;
+  margin-bottom: 100px;
+}
+.triggers_item p {
+  position: absolute;
+  font-size: 1.444em;
+  font-family: 'Playfair Display SC', arial;
+  bottom: 13px;
+  left: 10px;
+}
+.triggers_item img {
+  height: 200px;
+  min-width: 368px;
+}
+
+.product {
+  font-family: Myrad;
+  margin-bottom: 135px;
+}
+.product h3 {
+  color: #cfaa45;
+}
+.product_item h3 {
+  color: #000;
+  text-align: left;
+}
+.single:nth-child(2) {
+  width: 400px;
+}
+.sotr {
+  font-family: 'Proxima Nova';
+  background: #9b7456;
+  padding: 2.111em 0 5.555em 0;
+}
+.sotr h3 {
+  font-size: 1.667em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 2.06em;
+}
+.sotr_item {
+  margin-right: 25px;
+}
+footer {
+  padding-top: 3.778em;
+  color: #000;
+  font-family: 'Proxima Nova';
+}
+footer h3 {
+  text-align: left;
+  font-size: 1.555em;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+footer p {
+  color: #000;
+}
+footer p.un {
+  font-size: 1.222em;
+  margin-bottom: 15px;
+}
+.linea {
+  margin-top: 4.167em;
+  height: 38px;
+  text-align: center;
+  background: #383838;
+  color: #fff;
+  font-size: 0.875rem;
+  line-height: 38px;
+}
+
+
+
+footer {
+  font-family: 'Proxima Nova';
+}
+.carousel-3d-container {
+  height: 365px !important;
+}
+.carousel-3d-container .carousel-3d-slide {
+  height: 365px !important;
+  width: 100% !important;
+}
+.carousel-3d-container .carousel-3d-slide img {
+  height: 100%;
+}
+.carousel-3d-slider {
+  width: 650px !important;
+  height: 365px !important;
+}
+
+
